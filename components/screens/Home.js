@@ -495,9 +495,7 @@ export const Home = ({ navigation }) => {
             <Text style={{ ...FONTS.h4 }}>{item.duration}</Text>
           </View>
           <View>
-            <Text style={{ ...FONTS.body2, marginBottom: 10 }}>
-              {item.name}
-            </Text>
+            <Text style={{ ...FONTS.body2, marginBottom: 10 }}>Food</Text>
           </View>
           <View
             style={{
