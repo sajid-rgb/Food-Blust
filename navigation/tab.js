@@ -14,7 +14,7 @@ import { Home } from '../components/screens/Home';
 const Tab = createBottomTabNavigator()
 
 const TabBarCustomButton =({accessibilityState,children,onPress})=>{
-  var isSelected = accessibilityState.selected
+  let isSelected = accessibilityState.selected
   if (isSelected){
     return(
                   <View style={{ flex: 1, alignItems: "center" }}>
